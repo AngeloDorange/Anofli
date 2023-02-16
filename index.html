@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnoFli</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!--------------------FONT ICON----------------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!--------------------TYPED LIBRARY----------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+    <!--------------------AOS LIBRARY----------------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--------------------CSS STYLES----------------->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!---------------------------------NAVBAR-------------------------------------->
+    <nav>
+        <input type="checkbox" id="check">
+
+        <label for="check" class="checkbtn" id="toggle">
+            <i class="fa-solid fa-bars-staggered btn-mobile"></i>
+        </label>
+        
+        <a class="brand" href="#home"><i class="fa-solid fa-paw"></i>AnoFli</a>
+        <ul class="navigation" id="navbar-mobile">
+            <li><a class="nav-link" href="#home"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a class="nav-link" href="#about"><i class="fa-solid fa-user"></i>About</a></li>
+            <li><a class="nav-link" href="#gallery"><i class="fa-solid fa-image"></i>Gallery</a></li>
+            <li><a class="nav-link" href="#contact"><i class="fa-solid fa-phone"></i>Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!---------------------------------HERO BANNER-------------------------------------->
+    <section class="hero" id="home">
+        <div class="content">
+            <h1 class="title-hero">LET'S TAKE A SNAPSHOT</h1>
+            <p class="quote-hero">&#34 Until one has loved an animal, a part of one's soul remains unawakened. &#34 <br> <span class="typing"></span></p>
+            <div class="btn_hero">
+                <a class="btn" onclick="mesaj()" href="#">Learn More</a>
+            </div>
+
+            <div class="scroll_down">
+                <a href="#about">Scroll Down <i class="uil uil-arrow-down"></i> </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="slide"></div>
+
+    <!---------------------------------ABOUT-------------------------------------->
+    <section class="about ukiyo" id="about">
+        <div class="content">
+
+            <div class="gradient"></div>
+            <video autoplay muted loop>
+                <source src="video/Submarino - 26572.mp4" type="video/mp4">
+            </video>
+
+            <div class="about-content">
+                <div class="box" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text">
+                        <h1>BACKGROUND</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum similique, consequatur nemo commodi fugiat tempore. Fugiat repudiandae numquam ipsa dolore nesciunt porro quae deleniti optio quis.</p>
+                    </div>
+    
+                    <div class="img">
+                        <img src="img/about.jpg" alt="">
+                    </div>
+                </div>
+    
+                <div class="team">
+                    <div class="title">
+                        <h1>ANOFLI TEAM</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+    
+                    <div class="team-members swiper">
+                        <div class="team-slide">
+                            <div class="cards swiper-wrapper">
+                    
+                                <div class="card swiper-slide">
+                                    <div class="img">
+                                        <img src="img/pic-1.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>ANGELO, CEO & FOUNDER</h3>
+                                    </div>
+                                </div>
+    
+                                <div class="card swiper-slide">
+                                    <div class="img">
+                                        <img src="img/pic-2.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>ALEXA, PHOTOGRAPH</h3>
+                                    </div>
+                                </div>
+    
+                                <div class="card swiper-slide">
+                                    <div class="img">
+                                        <img src="img/pic-3.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>JHON, CO-FOUNDER</h3>
+                                    </div>
+                                </div>
+    
+                                <div class="card swiper-slide">
+                                    <div class="img">
+                                        <img src="img/team-1.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>HANNA, MANAGER</h3>
+                                    </div>
+                                </div>
+    
+                                <div class="card swiper-slide">
+                                    <div class="img">
+                                        <img src="img/team-2.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>PAUL, CO-MANAGER</h3>
+                                    </div>
+                                </div>
+    
+                                <div class="card swiper-slide">
+                                    <div class="img">
+                                        <img src="img/team-3.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>ANNE, PHOTOGRAPH</h3>
+                                    </div>
+                                </div>
+    
+                                <div class="card swiper-slide">
+                                    <div class="img">
+                                        <img src="img/team-4.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>ALEXIS, PHOTOGRAPH</h3>
+                                    </div>
+                                </div>
+    
+                                <div class="card swiper-slide">
+                                    <div class="img">
+                                        <img src="img/partner-3.png" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>GABRIELA, PHOGRAPH</h3>
+                                    </div>
+                                </div>
+    
+                                <div class="card swiper-slide">
+                                    <div class="img">
+                                        <img src="img/team-3.jpg" alt="">
+                                    </div>
+                                    <div class="text">
+                                        <h3>AMINA, HRR</h3>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+    
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------GALLERY-------------------------------------->
+    <section class="gallery" id="gallery">
+        <div class="content">
+            <div class="title">
+                <h1>GALLERY</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi nihil eos, sed voluptate incidunt.</p>
+            </div>
+
+            <div class="items">
+                <div class="item" data-aos="fade-up" data-aos-delay="50">
+                    <img class="img-gallery" src="img/8.jpg" alt="">
+                </div>
+
+                <div class="item" data-aos="fade-up" data-aos-delay="70">
+                    <img class="img-gallery" src="img/7.jpg" alt="">
+                </div>
+
+                <div class="item" data-aos="fade-up" data-aos-delay="50">
+                    <img class="img-gallery" src="img/5.jpg" alt="">
+                </div>
+
+                <div class="item" data-aos="fade-up" data-aos-delay="70">
+                    <img class="img-gallery" src="img/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------CONTACT-------------------------------------->
+    <section class="contact ukiyo" id="contact">
+        <div class="content">
+
+            <div class="gradient"></div>
+            <video autoplay muted loop>
+                <source src="video/Caballos - 70860.mp4" type="video/mp4">
+            </video>
+
+            <div class="contact-content">
+                <div class="title">
+                    <h1>SEND A MESSAGE</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi nihil eos, sed voluptate incidunt.</p>
+                </div>
+    
+                <form action="#">
+                    <div class="input">
+                        <input data-aos="fade-right" data-aos-delay="50" type="text" placeholder="Name" minlength="4" required>
+                        <input data-aos="fade-left" data-aos-delay="70" type="email" name="email" id="" placeholder="Email" required>
+                    </div>
+                    <textarea data-aos="fade-up" data-aos-delay="90" name="message" id="" rows="7" placeholder="Please write your message" minlength="15" required></textarea>
+                    <div class="btn">
+                        <button type="submit" onclick="mesaj()">SEND MESSAGE</button>
+                    </div>
+                </form>
+    
+                <div class="medias">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-behance"></i></a></li>
+                    </ul>
+                </div>
+    
+                <div class="credit">
+                    <hr>
+                    <p>copyright &copy; 2022-<span id="year"></span> AnoFli Studio | Design: <span class="developer"><a target="_blank" href="http://www.creativewebdemo.xyz">Angelo Dorange</a></span></p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
